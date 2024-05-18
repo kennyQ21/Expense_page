@@ -76,7 +76,7 @@ export default function BoxWithItems() {
 
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <Box sx={{ backgroundColor: '#add8e6', padding: '15px' }}>
+      <Box sx={{ backgroundColor: '#add8e6', padding: '15px',height:'800px' }}>
         <Box
           component="section"
           sx={{
