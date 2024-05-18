@@ -1,0 +1,25 @@
+/* App.css */
+
+/* Center the content vertically and horizontally */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style for each item */
+.item { 
+  padding: 10px;
+  text-align: center;
+  color: #000000; /* Default text color */
+  border: none;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .item {
+    background-color: #1a2027;
+    color: #ffffff;
+  }
+}
